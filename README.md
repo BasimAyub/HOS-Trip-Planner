@@ -92,6 +92,25 @@ cd frontend
 npm run build
 ```
 
+## Docker
+
+Run the app with Docker Compose:
+
+```bash
+docker compose up --build
+```
+
+Open:
+
+```text
+http://localhost:5173
+```
+
+The compose setup runs:
+
+- Django API on `http://localhost:8000`
+- React frontend on `http://localhost:5173`
+
 ## Environment Variables
 
 | Variable | Used By | Purpose | Default |

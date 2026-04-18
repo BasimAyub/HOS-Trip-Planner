@@ -605,14 +605,16 @@ function EmptyState() {
   return (
     <section className='empty-state'>
       <div>
-        <span className='eyebrow'>Ready for dispatch</span>
+        <span className='eyebrow'>Ready to plan</span>
         <h2>
-          Enter the trip details to generate the route and ELD-style logs.
+          Enter the trip details to generate a route, required stops, and daily
+          driver log sheets.
         </h2>
       </div>
       <p>
-        The planner will calculate driving blocks, required breaks, fuel stops,
-        10-hour rests, cycle restarts when needed, and daily log totals.
+        The planner applies property-carrying HOS rules, including driving
+        limits, breaks, fuel stops, 10-hour rests, and 34-hour restarts when
+        needed.
       </p>
     </section>
   );
